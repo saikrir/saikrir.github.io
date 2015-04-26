@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Sai Kattersiehtty </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <style>
-            .masthead {
-              background-color: @brand-primary;
-            }
-        </style>
+        <link href="css/main.css" rel="stylesheet" media="screen">
 </head>
 <body>
   <main>
-      <header class="container masthead">
+      <header class="container">
         <section class="row">
-          <div class="col-md-9">
-            <nav class="navbar navbar-inverse">
+          <div class="col-md-3">
+            <nav class="navbar navbar-standard" role='navigation'>
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">My Resume</a></li>
@@ -24,7 +22,7 @@
            </nav>
           </div>
         </section>
-          <section class="row"
+        <section class="row">
           <div class="col-md-12">
             <h2 class="bg-primary"> Sai Krishna Rao Katterishetty </h2>
             <p>
@@ -33,17 +31,22 @@
           </div>
          </section>
 		</header>
-		<section class="container">
-      <section  class="row">
-            <div class="col-md-9">
-            <h2> Background </h2>
-              <p>
-                   My interest in web development stemmed from my passion for gaming. Between developing websites and playing video games,
-                   I admittedly spend most of my time in front of a screen. Some of my passions are writing clean code, 
-                   creating sexy user experiences and filling up a fresh cup of coffee.
-              </p>
+    <section>
+      <div class="container">
+            <div class="row well well-lg">
+                <div class="clearfix col-sm-2">
+                  <img src="images/MyFace.png" alt="My Face" class="img-circle" />
+                </div>
+                <div class="col-sm-12">
+                  <h4> Background </h4>
+                    <p>
+                         My interest in web development stemmed from my passion for gaming. Between developing websites and playing video games,
+                         I admittedly spend most of my time in front of a screen. Some of my passions are writing clean code, 
+                         creating sexy user experiences and filling up a fresh cup of coffee.
+                    </p>
+                </div>
             </div>
-      </section>
+      </div>
       <section  class="row">
         <h2>My Projects</h2>
         <p>
@@ -68,7 +71,7 @@
         All Rights Reserved Saikrishna
     </footer>
 	</main>
-       <script src="js/jquery-2.1.3.js"></script>
-       <script src="js/bootstrap.min.js"></script>
+ <script src="js/jquery-2.1.3.js"></script>
+ <script src="js/bootstrap.min.js?body=1"></script>
 </body>
 </html>
