@@ -6,8 +6,23 @@ html {
 }
 body {
   /* Margin bottom by footer height */
+  margin-top: 85px;
   margin-bottom: 220px;
   font-family: 'Open Sans', sans-serif;
+}
+.img-responsive2 {
+    margin-top: -10px;
+    display: inline-block;
+    max-width: 45%;
+    max-height: 10%;
+    #height: auto;
+}
+
+.navbar-brand {
+  padding: 0px 8px 1px; 
+}
+.navbar-helper{
+  padding-top: 10px;
 }
 .footer {
   position: absolute;
