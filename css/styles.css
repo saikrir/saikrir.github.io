@@ -1,5 +1,6 @@
 :root {
-  --clr-gold: rgb(238, 204, 141);
+  /* --clr-gold: rgb(238, 204, 141); */
+  --clr-gold: rgb(242, 233, 216);
   --clr-dark: black;
   --clr-gray: #f1f2f6;
   --clr-light-gray: #ffffff;
@@ -90,10 +91,15 @@ input[type="text"] {
   color: var(--clr-light-gray);
 }
 
+input[type="text"]:focus {
+  outline: none;
+}
+
 .button {
   background-color: var(--clr-dark);
   color: var(--clr-gold);
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
   margin-bottom: 1rem;
   font-size: medium;
 }
@@ -260,8 +266,6 @@ section > h2 {
   }
 
   #head-shot-mobile {
-    /* object-fit: fill;
-    width: 60%; */
     width: 80%;
     display: inline;
     margin: 1rem;
